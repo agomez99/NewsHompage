@@ -1,11 +1,19 @@
 {
   "name": "newshompage",
   "version": "1.0.0",
-  "description": "![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)",
+  "description": "news landing page",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agomez99/NewsHompage.git"
+  },
+  "author": "Austine Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agomez99/NewsHompage/issues"
+  },
+  "homepage": "https://github.com/agomez99/NewsHompage#readme"
 }
