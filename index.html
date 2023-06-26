@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+    <title>Frontend Mentor | News homepage</title>    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/images/logo.svg" alt="logo"/>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex ms-auto">
+              <ul class="navbar-nav  mb-2 mb-lg-0 px-5">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">New</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Popular</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Trending</a>
+                </li>                
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Catagories</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="hero-wrapper">
+                <img src="assets/images/image-web-3-desktop.jpg" alt="hero"  class="desktop-image" />
+                <img src="assets/images/image-web-3-mobile.jpg" alt="hero"  class="mobile-image" />
+                <div class="hero-content">
+                  <div>
+                  <h1 class="hero-title">The Bright Future of Web 3.0?</h1>
+                </div>
+                  <div class="hero-body">
+                    <p> We dive into the next evolution of the web that claims to put the power of the platforms back into the hands
+                      of the people. But is it really fulfilling its promise?</p>
+                    <button class="read-more-btn">READ MORE</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="right-section">
+                <h2 class="right-header">New</h2>
+                <ul class="right-section-list">
+                  <li>
+                    <h2 class="right-title"> Hydrogen VS Electric Cars</h2>
+                    <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+                  </li>
+                  <hr>
+                  <li>
+                    <h2 class="right-title"> The Downsides of AI Artistry</h2>
+                    <p>What are the possible adverse effects of on-demand AI image generation?</p>
+                  </li>
+                  <hr>
+                  <li>
+                    <h2 class="right-title"> Is VC Funding Drying Up?</h2>
+                    <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 bottom-section">
+              <div class="bottom-item">
+                <img src="./assets/images/image-retro-pcs.jpg" alt="pcs" class="bottom-img" />
+                <div class="bottom-text">
+                  <h3 class="bottom-title">01</h3>
+                  <p><strong>Reviving Retro PCs</strong></p>
+                  <p>What happens when old PCs are given modern upgrades?</p>
+                </div>
+              </div>
+              <div class="bottom-item">
+                <img src="./assets/images/image-top-laptops.jpg" alt="laptops" class="bottom-img" />
+                <div class="bottom-text">
+                  <h3 class="bottom-title">02</h3>
+                  <p><strong>Top 10 Laptops of 2022</strong></p>
+                  <p>Our best picks for various needs and budgets.</p>
+                </div>
+              </div>
+              <div class="bottom-item">
+                <img src="./assets/images/image-gaming-growth.jpg" alt="gaming" class="bottom-img" />
+                <div class="bottom-text">
+                  <h3 class="bottom-title">03</h3>
+                  <p><strong>The Growth of Gaming</strong></p>
+                  <p>How the pandemic has sparked fresh opportunities.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+      </body>
