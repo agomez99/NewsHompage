@@ -5,9 +5,10 @@
 }
 .navbar{
     margin-bottom: 5%;
+    max-width: 85%
 }
 .desktop-image {
-    width: auto;
+    width: 100%;
     height: 300px
 }
 
@@ -38,13 +39,23 @@
 }
 .right-section {
     background-color: hsl(240, 100%, 5%);
-    width: 90%;
+    width:100%;
     color: white;
-    padding: 5%;
+    padding: 5% 0% 5% 0%;
+}
+.right-section-list{
+    margin:5% 0% 5% 0%;
 }
 .right-title{
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 700;
+}
+.right-body{
+    font-size: 13px;
+    font-weight: 100;
+}
+hr{
+    padding-bottom: 5%;
 }
 .read-more-btn {
     background-color: hsl(5, 85%, 63%);
@@ -87,7 +98,10 @@ li{
 }
 
 @media (max-width: 600px) {
-
+    .navbar{
+        margin-bottom: 5%;
+        max-width: 100%
+    }
     .desktop-image {
         display: none;
 
