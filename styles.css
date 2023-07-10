@@ -9,6 +9,9 @@
     max-width: 85%;
     margin-top:5%;
 }
+.logo{
+    margin-left: 65%;
+}
 .nav-item{
     color:hsl(236, 13%, 42%);
 }
