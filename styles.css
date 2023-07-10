@@ -3,9 +3,17 @@
     font-family: 'Inter', sans-serif;
 
 }
+
 .navbar{
-    margin-bottom: 5%;
-    max-width: 85%
+    margin-bottom: 2%;
+    max-width: 85%;
+    margin-top:5%;
+}
+a.nav-link{
+    color:hsl(236, 13%, 42%);
+}
+a.nav-link:hover{
+    color:hsl(35, 77%, 62%);
 }
 .desktop-image {
     width: 100%;
@@ -16,7 +24,9 @@
     display: none;
 
 }
-
+.hero-wrapper{
+    margin-left: 5%;
+}
 .hero-content{
     display:flex;
 }
@@ -24,7 +34,7 @@
     font-size:3rem;
     font-weight:800;
     margin: 5%;
-    width:60%;
+    width:70%;
 
 }
 .hero-body{
@@ -34,12 +44,13 @@
     color:hsl(236, 13%, 42%)
 }
 .right-header{
+    font-size: 2rem;
     margin-left: 10%;
     color:hsl(35, 77%, 62%);
 }
 .right-section {
     background-color: hsl(240, 100%, 5%);
-    width:100%;
+    width:22rem;
     color: white;
     padding: 5% 0% 5% 0%;
 }
@@ -50,9 +61,15 @@
     font-size: 1.3rem;
     font-weight: 700;
 }
+.right-title:hover{
+    color:hsl(35, 77%, 62%);
+    cursor: pointer;
+
+}
 .right-body{
     font-size: 13px;
     font-weight: 100;
+   color: hsl(233, 8%, 79%);
 }
 hr{
     padding-bottom: 5%;
@@ -63,6 +80,15 @@ hr{
     height: 50px;
     width: 200px;
     border: none;
+    letter-spacing: .2rem;
+    font-size:0.9rem;
+    font-weight:600;
+}
+
+.read-more-btn:hover{
+    background:hsl(240, 100%, 5%);
+    color:white;
+
 }
 
 ul {
@@ -76,21 +102,34 @@ li{
     font-weight: bold;
 
 }
+.bottom-header{
+    color:hsl(240, 100%, 5%);
+}
 .bottom-section {
     display: flex;
+    margin-left: 5%;
+    margin-right: 15%;
 }
-
+a.bottom-header{
+    text-decoration: none;
+}
+a.bottom-header:hover{
+    color:hsl(5, 85%, 63%);
+    cursor: pointer;
+}
 .bottom-img {
     height: 150px;
 }
 
 .bottom-item {
     display: flex;
+    width:25rem;
+    color:hsl(236, 13%, 42%);
 
 }
 
 .bottom-text {
-    padding: 5%;
+    padding:2%;
 }
 
 .bottom-title {
@@ -127,12 +166,25 @@ li{
     .hero-content{
         display:block;
     }
+    .right-section {
+        padding:0%;
+        margin: 0%;
+    }
+    .right-section-list{
+        margin: 0%;
+    }
     .bottom-section {
         padding-top: 10%;
-
+        width:300px;
         display: flex;
         flex-direction: column;
     }
     .right-section{
         width:100%;
     }
+    .bottom-item {
+        width:20rem;
+    
+    }
+    
+}
