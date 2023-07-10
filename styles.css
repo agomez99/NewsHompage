@@ -9,11 +9,13 @@
     max-width: 85%;
     margin-top:5%;
 }
-a.nav-link{
+.nav-item{
     color:hsl(236, 13%, 42%);
 }
-a.nav-link:hover{
+.nav-item:hover{
     color:hsl(35, 77%, 62%);
+    cursor: pointer;
+
 }
 .desktop-image {
     width: 100%;
